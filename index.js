@@ -13,6 +13,6 @@ const mongoose = require('./db/connections').default;
 const userController = require('./controllers/usersController');
 app.use('/api', userController);
 
-app.listen(app.get('port'), () => {
+app.listen(process.env.PORT || 4000, () => {
 	console.log(`✅ Listening on port ${app.get('port')}`);
 });
