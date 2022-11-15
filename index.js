@@ -10,8 +10,12 @@ app.use(cors());
 
 const mongoose = require('./db/connections').default;
 
-const userController = require('./controllers/usersController');
+const userController = require('./controllers/userController');
 app.use('/api', userController);
+
+
+
+
 
 app.listen(app.get('port'), () => {
 	console.log(`✅ Listening on port ${app.get('port')}`);

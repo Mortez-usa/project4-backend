@@ -1,0 +1,1 @@
+This project was bootstrapped with [Create React App](https://main--moretezanewsfeed.netlify.app/.
