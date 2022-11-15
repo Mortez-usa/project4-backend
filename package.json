@@ -17,6 +17,5 @@
 		"node": "^19.1.0"
 	},
 	"devDependencies": {
-		"nodemon": "^2.0.20"
 	}
 }
